@@ -15,22 +15,22 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram bot token, obtained from @BotFather.",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "API_ID": {
       "description": "Your API_ID from my.telegram.org, required for Pyrogram.",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "API_HASH": {
       "description": "Your API_HASH from my.telegram.org, required for Pyrogram.",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "DB_URI": {
       "description": "Your MongoDB connection string.",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "DB_NAME": {
@@ -50,7 +50,7 @@
     },
     "MESSAGE_DUMP": {
       "description": "Channel where bot will send logs and updates.",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "PREFIX_HANDLER": {
@@ -105,8 +105,8 @@
     },
     "ENV": {
       "description": "Set this to any non-empty value to enable environment variables.",
-      "required": true,
-      "value": "ANYTHING"
+      "required": false,
+      "value": ""
     }
   },
   "buildpacks": [
