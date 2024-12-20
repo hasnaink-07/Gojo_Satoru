@@ -111,16 +111,16 @@
   },
   "buildpacks": [
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
     },
     {
-      "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+      "url": "https://github.com/AdmitHub/meteor-buildpack-horse.git"
     },
     {
       "url": "heroku/python"
     },
     {
-      "url": "https://github.com/heroku/heroku-buildpack-git"
+      "url": "heroku-community/git"
     }
   ]
 }
