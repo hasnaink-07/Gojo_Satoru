@@ -62,23 +62,23 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    API_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
-    OWNER_ID = 1344569458  # Your telegram user id defult to mine
-    MESSAGE_DUMP = 0  # Your Private Group ID for logs if not passed your owner id will be msg dump
+    BOT_TOKEN = "6759025438:AAEv_AnIdr9jEkjnRNnIAJ-CFAYvSkQoaVg"
+    API_ID = 24683098  # Your APP_ID from Telegram
+    API_HASH = "e4055cd239464e50e69bd73057c05dd3"  # Your APP_HASH from Telegram
+    OWNER_ID = 6346273488 # Your telegram user id defult to mine
+    MESSAGE_DUMP = -1002105665930  # Your Private Group ID for logs if not passed your owner id will be msg dump
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
-    DB_URI = ""  # Your mongo DB URI
-    DB_NAME = ""  # Your DB name
+    DB_URI = "mongodb+srv://herobh123456:hasnainkk07@hasnainkk07.uqjekii.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
+    DB_NAME = "Hinata"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = ""
     RMBG_API = ""
     PREFIX_HANDLER = ["!", "/", "$"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
-    VERSION = "VERSION"
+    SUPPORT_GROUP = "Raiden_Support"
+    SUPPORT_CHANNEL = "Raiden_Updates"
+    VERSION = "ᵇᵉᵗᵃ"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = ""
     WORKERS = 8
