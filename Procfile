@@ -1,1 +1,1 @@
-worker:python3 -m Powers
+worker: python3 -m Powers
